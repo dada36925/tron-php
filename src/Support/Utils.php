@@ -4,7 +4,7 @@ namespace Tron\Support;
 
 use InvalidArgumentException;
 use kornrunner\Keccak;
-use phpseclib\Math\BigInteger;
+use phpseclib3\Math\BigInteger;
 use Psr\Http\Message\StreamInterface;
 
 class Utils

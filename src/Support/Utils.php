@@ -287,7 +287,7 @@ class Utils
         list($bnq, $bnr) = $divResult;
         $ret = "$bnq";
         if ($bnr->compare(new BigInteger(0)) > 0) {
-            $ret .= '.' . rtrim(sprintf("%0{$decimals}d", $bnr), '0');
+            $ret .= '.' . rtrim(sprintf("%0{$decimals}d", "$bnr"), '0');
         }
 
         return $ret;
